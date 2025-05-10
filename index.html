@@ -179,7 +179,7 @@ function checkFormel(i) {
   feld = feld.replace(/²/g, '^2');
   const feedback = document.getElementById('feedbackFormel' + i);
   const erlaubte = {1: ['I=E/(U·t)', 'I=E/(t·U)'], 2: ['U=√(P·R)', 'U=√(R·P)'], 3: ['P=U^2/R', 'P=U^2/R'], 4: ['E=I^2·R·t', 'E=I^2·R·t'], 5: ['R=U^2/P', 'R=U^2/P']};
-  const videos = {1: 'https://www.youtube.com/watch?v=y5vnhXGvktM', 2: 'https://www.youtube.com/watch?v=K7_PsTTowLQ', 3: 'https://www.youtube.com/watch?v=K7_PsTTowLQ', 4: 'https://www.youtube.com/watch?v=y5vnhXGvktM', 5: 'https://www.youtube.com/watch?v=f14Y2XibHD4'};
+  const videos = {1: 'https://www.youtube.com/watch?v=pPCdulUiRtI', 2: 'https://www.youtube.com/watch?v=Mck_KavX9p4', 3: 'https://www.youtube.com/watch?v=Mck_KavX9p4', 4: 'https://www.youtube.com/watch?v=pPCdulUiRtI', 5: 'https://www.youtube.com/watch?v=Mck_KavX9p4'};
   if (erlaubte[i].includes(feld)) {
     feedback.textContent = 'Richtig!'; feedback.style.color = 'green';
   } else {
